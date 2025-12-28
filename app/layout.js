@@ -1,15 +1,21 @@
+import { Inter } from 'next/font/google'
 import './globals.css'
+import { Toaster } from '@/components/ui/toaster'
+
+const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Next.js MongoDB Template',
-  description: 'A simple template with App Router, MongoDB, and shadcn/ui',
+  title: 'John Doe - Portfolio',
+  description: 'Full Stack Developer & Creative Designer - Portfolio with stunning 3D animations',
+  keywords: 'portfolio, web developer, full stack, react, nextjs, 3d animations',
 }
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body>
+    <html lang="en" className="scroll-smooth">
+      <body className={inter.className}>
         {children}
+        <Toaster />
       </body>
     </html>
   )
