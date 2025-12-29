@@ -237,7 +237,7 @@ export default function Portfolio() {
               whileHover={{ scale: 1.05 }}
               className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent"
             >
-              Portfolio
+              MAWB.
             </motion.div>
             
             {/* Desktop Menu */}
@@ -309,7 +309,7 @@ export default function Portfolio() {
             transition={{ duration: 0.8 }}
             className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-purple-400 via-pink-400 to-cyan-400 bg-clip-text text-transparent"
           >
-            John Doe
+            Wasay Baig
           </motion.h1>
           
           <motion.div
@@ -647,7 +647,7 @@ export default function Portfolio() {
         <div className="container mx-auto max-w-6xl">
           <div className="flex flex-col md:flex-row justify-between items-center gap-6">
             <div className="text-gray-400 text-center md:text-left">
-              <p>&copy; 2024 John Doe. All rights reserved.</p>
+              <p>&copy; 2024 Wasay Baig. All rights reserved.</p>
               <p className="text-sm mt-1">Built with Next.js, Three.js & Love 💜</p>
             </div>
             

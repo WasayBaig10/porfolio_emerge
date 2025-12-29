@@ -5,7 +5,7 @@ import { Toaster } from '@/components/ui/toaster'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'John Doe - Portfolio',
+  title: 'MAWB. - Portfolio',
   description: 'Full Stack Developer & Creative Designer - Portfolio with stunning 3D animations',
   keywords: 'portfolio, web developer, full stack, react, nextjs, 3d animations',
 }
